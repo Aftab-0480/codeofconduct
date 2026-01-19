@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enyugma’26 Code of Conduct</title>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 40px;
+      color: #2c2c2c;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .link-btn {
+      display: inline-block;
+      padding: 12px 22px;
+      background-color: #1f2937;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    .link-btn:hover {
+      background-color: #111827;
+    }
+
+    .content-box {
+      margin-top: 30px;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      white-space: pre-wrap;
+      line-height: 1.7;
+      display: none;
+    }
+
+    .content-box h1 {
+      margin-top: 0;
+      font-size: 28px;
+      color: #111827;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <a href="#" class="link-btn" onclick="generateText()">View Code of Conduct</a>
+
+    <div id="output" class="content-box"></div>
+  </div>
+
+  <script>
+  function generateText() {
+    const output = document.getElementById("output");
+    output.style.display = "block";
+    output.innerHTML = `
+<strong style="font-size: 26px;">Enyugma’26 Code of Conduct</strong>
+
+🎯 Purpose
+Enyugma’26 is committed to creating a safe, inclusive, and inspiring environment where creativity, technology, and culture thrive. This Code of Conduct sets the expectations for all attendees, participants, organizers, sponsors, and volunteers.
+
+👥 Respect & Inclusivity
+- Treat everyone with dignity, respect, and empathy.
+- Celebrate diversity—no discrimination based on gender, race, religion, ability, or background.
+- Use inclusive language in all communications.
+
+🚫 Zero Tolerance for Harassment
+- Harassment, bullying, or offensive behavior (verbal, physical, or digital) will not be tolerated.
+- Unwanted attention, inappropriate jokes, or disruptive conduct may lead to removal from the event.
+
+⚡ Professional & Ethical Behavior
+- Maintain integrity in competitions, performances, and collaborations.
+- Respect intellectual property and give credit where due.
+- Avoid plagiarism, cheating, or misrepresentation.
+
+🛡️ Safety & Compliance
+- Follow venue rules, safety instructions, and emergency protocols.
+- Keep pathways clear and respect event infrastructure.
+- Alcohol, drugs, or unsafe activities are strictly prohibited.
+
+📢 Accountability & Consequences
+- Violations may result in warnings, disqualification, or removal from the event.
+- Serious breaches may lead to reporting to relevant authorities.
+
+🌟 Commitment
+By participating in Enyugma’26, you agree to uphold this Code of Conduct and contribute to a positive, collaborative, and memorable experience for all.
+`;
+  }
+</script>
+
+
+</body>
+</html>
